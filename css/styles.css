@@ -40,14 +40,11 @@ body {
     color: var(--header-logo-color);
 }
 
-.header-link {
+.nav-link {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.nav-link {
-    font-weight: 500;
     color: var(--primary-text-color);
 } 
 
@@ -62,6 +59,9 @@ body {
 
 .header-contacts-link {
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 
@@ -121,6 +121,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: center;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -155,17 +157,14 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* DOING&TEAM */
-.title-section-doing-team {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 /*----------------------------------------------DOING-----------------------------------------  */
 
 .doing-title {
     color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .doing-image {
@@ -175,30 +174,26 @@ body {
 /*----------------------------------------------TEAM------------------------------------------  */
 .team-title {
     color: var(--primary-text-color);
-}
-
-.team-image {
-    border: 2px solid var(--primary-color);
-}
-
-.team-image:focus {
-    display: block;
-    border: 2px solid var(--accent-color);
-}
-
-.team-text {
-    font-size: 16px;
-    line-height: 1.19;
+    font-size: 36px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-item-title {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 .team-item-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
@@ -227,4 +222,18 @@ body {
                 0px 1px 2px rgba(0, 0, 0, 0.08),
                 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+
+.gallery-item-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
